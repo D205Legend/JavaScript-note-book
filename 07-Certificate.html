@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificate</title>
+</head>
+<body>
+  <h1>Details</h1>
+  <form action="" id="myForm">
+  <label for="">
+    Name: <br>
+    <input type="text" id="myName"> <br>
+  </label>
+  <label for="">
+    Grade: <br>
+    <input type="range" name="" id="myGrade" min="4" max="9" value="6">
+  </label> <br>
+  <label for="">
+    Favourite Coding Language: 
+    <select name="" id="myLanguage">
+      <option>Scratch</option>
+      <option>Python</option>
+      <option>Javascript</option>
+      <option>Mit</option>
+    </select>
+  </label>
+  </form>
+  <h1>Certificate Of Excellence</h1> <br>
+  <p>This Certificate of Excellence is awarded to <span id="spanName"></span>, Grade <span id="spanGrade"></span> for becoming accomplished in the <span id="spanLanguage"></span> Programming Language. This certificate is a recognition of your proficiency you have demonstrated in making variety of projects during the course.</p>
+  <p>Regards,</p>
+  <p>Elon Musk</p>
+  <script>
+    function certificateUpdater() {
+      spanName.textContent = myName.value;
+      spanGrade.textContent = myGrade.value;
+      spanLanguage.textContent = myLanguage.value;
+    }
+    myForm.onchange = certificateUpdater;
+  </script>
+
+</body>
+</html>

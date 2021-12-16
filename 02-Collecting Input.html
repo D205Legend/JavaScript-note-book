@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collecting Input</title>
+</head>
+<body>
+ <h1>The best coder in the world is <span id="myName">...</span> </h1> 
+ <input type="text" id="myTextbox">
+ <button id="myButton">Update</button> 
+
+
+ <script>
+   function nameUpdater() {
+     myName.textContent = myTextbox.value;
+   }
+   myButton.onclick = nameUpdater;
+   </script>   
+</body>
+</html>

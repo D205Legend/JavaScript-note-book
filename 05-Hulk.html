@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hulk</title>
+</head>
+<body>
+  <h1 id="myHeader">My name is Bruce Banner</h1>
+  <label for="">
+    Gamma Radiation
+   <input type="range" name="" id="myRange" min="400" max="600" value="400">
+  </label> <br>
+  <img src="https://javascript-classwork-notebook.sanketana.repl.co/images/bruce.png" alt="" id="myImage"> 
+  <script>
+    function startRadiation() {
+     myHeader.textCotent = "No, I am The Hulk!";
+     myImage.src = "https://javascript-classwork-notebook.sanketana.repl.co/images/hulk.png";
+     myImage.style.height = myRange.value +'px';
+    }
+    myRange.onchange = startRadiation;
+  </script>
+</body>
+</html>

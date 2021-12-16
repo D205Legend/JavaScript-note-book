@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Replacing text on button click</title>
+</head>
+<body>
+  <h1>Best coding laguage</h1>
+  <p id="myPara">Scratch is the best</p>
+<button id="myButton">No, it isn't</button>
+
+<script>
+  function textReplacer() {
+    myPara.textContent = "Python is the best";
+  }
+
+  myButton.onclick = textReplacer;
+</script>
+</body>
+</html>

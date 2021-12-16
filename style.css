@@ -1,0 +1,18 @@
+.green {
+  color: green;
+  text-shadow: 0 0 5px lime;
+}
+
+.big {
+  font-size: 100px;
+}
+
+.class1 {
+  color: orange;
+  background-color: white;
+}
+
+.class2 {
+  color: yellow;
+  background-color: orange;
+}

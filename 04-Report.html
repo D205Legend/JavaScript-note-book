@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Report</title>
+</head>
+<body>
+  <label for="">
+    Student: 
+    <input type="text" id="myInput">
+  
+  </label>
+  <label for="">
+    Grade: 
+    <input type="text" id="myGrade">
+  </label>
+  <h1>Report:</h1>
+  <p><span id="first"></span> is an outstanding student of grade <span id="pGrade"></span>. I've really appreciated having <span id="second"></span> in my class this year. If <span id="third"></span> continues to put in effort, I can see great things ahead!
+</p>
+<script>
+  function nameUpdater() {
+    first.textContent = myInput.value;
+    second.textContent = myInput.value;
+    third.textContent = myInput.value;
+    pGrade.textContent = myGrade.value;
+  }
+  myInput.oninput = nameUpdater;
+  myGrade.oninput = nameUpdater;
+</script>
+</body>
+</html>

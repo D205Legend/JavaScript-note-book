@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Togling class</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <label for="">
+   <input type="checkbox" name="" id="myGreen">Green <br>
+   <input type="checkbox" name="" id="myBig">Big  <br>
+  </label>
+  <h1 id="myHeader">Green is good!</h1>
+  <script>
+    function greenHandler() {
+      if (myGreen.checked) {
+        myHeader.classList.add('green');
+      } else {
+        myHeader.classList.remove('green');
+      }
+
+      }
+    myGreen.onclick = greenHandler;
+
+    function bigHandler() {
+      if (myBig.checked) {
+        myHeader.classList.add('big');
+      } else {
+        myHeader.classList.remove('big');
+      }
+    }
+    myBig.onclick = bigHandler;
+  </script>
+</body>
+</html>
