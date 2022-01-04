@@ -16,3 +16,27 @@
   color: yellow;
   background-color: orange;
 }
+
+.hide {
+  display: none;
+}
+
+.big {
+  font-size: 5em;
+}
+
+.bigger {
+  font-size: 7em;
+}
+
+.show {
+  display: block;
+}
+
+#choresList, #myList{
+  cursor: pointer;
+}
+
+.complete {
+  text-decoration: line-through;
+}
