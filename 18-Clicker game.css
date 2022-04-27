@@ -1,0 +1,27 @@
+#playArea {
+  height: 446px;
+  width: 640px;
+  background-image: url("christmas-bauble-g296dc68d7_640.jpg");
+  margin: auto;
+  position: relative;
+}
+
+body {
+  text-align: center;
+}
+
+#diamond {
+  width: 120px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#score {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}

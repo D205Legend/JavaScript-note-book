@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Orbitron&display=swap');
+
+body {
+  text-align: center;
+}
+
+#frame {
+  height: 360px;
+  width: 662px;
+  background-color: #FBA601;
+  margin: auto;
+  border-radius: 10px;
+}
+
+#myHeading {
+  font-family: 'Neucha', cursive;
+  text-align: center; 
+}
+
+#myTitle, #myTitle1, #myTime {
+  font-family: 'Neucha', cursive;
+  text-align: center;
+  color:white;
+  padding-top: 3%;
+}
+
+.myButton {
+  height: 50px;
+  width: 150px;
+  border: 2px solid white;
+  background-color: #FBA601;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.6rem;
+  margin: 10px;
+}
+
